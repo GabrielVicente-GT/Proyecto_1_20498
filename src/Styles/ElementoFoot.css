@@ -1,0 +1,32 @@
+.FootEl{
+    text-align: left;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Tisa;
+}
+.FootElB{
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.TextoFoot{
+    color: #EE6A5A;
+    line-height: 30px;
+}
+
+.Barra{
+    top: 10px;
+    position: relative;
+    left: -10px;
+    background-color: #EE6A5A;
+    width: 100%;
+    height: 1px;
+}
+
+.BarraB{
+    position: relative;
+    top: 10px;
+    background-color: #EE6A5A;
+    width: 100%;
+    height: 1px;
+}

@@ -1,0 +1,52 @@
+.CPC{
+    position:absolute;
+    width: 110vw;
+    height: 110vh;
+    left: -10px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 250px 250px;
+}
+
+.CPC .ColumnasA{
+    position: relative;
+    display: grid;
+    width: 50%;
+    height: auto;
+    grid-template-columns: 250px;
+    grid-template-rows: 60px 90px 110px 110px 90px 90px 110px;
+    top: 40px;
+    left: 480px;
+}
+
+.CPC .ColumnasB{
+    position: relative;
+    display: grid;
+    width: 50%;
+    height: auto;
+    grid-template-columns: 250px;
+    grid-template-rows: 40px repeat(9, 40px);
+
+    column-gap: 130px;
+    row-gap: 15px;
+    top: 40px;
+    left: 600px;
+}
+
+.CPC .ColumnasA .Preferencias{
+    position: relative;
+    left: -10px;
+    text-align: left;
+    color: white;
+    font-family: PlutoBold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.CPC .ColumnasB .Conocenos{
+    text-align: center;
+    color: white;
+    font-family: PlutoBold;
+    font-size: 18px;
+    font-weight: bold;
+}

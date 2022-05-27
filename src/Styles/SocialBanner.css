@@ -1,0 +1,52 @@
+.Social{
+    right: -20px;
+    position: fixed;
+    width: 360px;
+    height: 55px;
+    background-color: black;
+
+    text-align: center;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+}
+
+.Social span {
+    
+    position: relative;
+    top:15px;
+    color: white;
+    font-family: PlutoBold;
+    font-weight: lighter;
+    font-size: 17.5px;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+
+.Social .logo {
+    position: relative;
+    margin-top: 10px;
+}
+
+.Social .Icono img{
+    margin-top: 10px;
+    width: 35px;
+    position: absolute;
+    cursor: pointer;
+}
+    
+
+.Social .Icono img:nth-child(1){
+    opacity: 1;
+}
+
+.Social .Icono img:nth-child(2){
+    opacity: 0;
+}
+
+.Social .Icono:hover img:nth-child(1){
+    opacity: 0;
+}
+.Social .Icono:hover img:nth-child(2){
+    opacity: 1;
+}

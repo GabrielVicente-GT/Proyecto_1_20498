@@ -1,0 +1,131 @@
+.Panel{
+    transition: all 700ms ease;
+    position: absolute;
+    left: 0;
+    background-color: #F2F2F2;
+    width: 270px;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.Panel hr{
+    width: 80%;
+    size: 2px;
+    color: black;
+    position: relative;
+    top: 45px;
+    left: 0px;
+}
+
+.Panel .LogoNegro{
+    position: inherit;
+    left: 20px;
+    top: 20px;
+}
+
+.Panel .Close{
+    position: inherit;
+    right: 10px;
+    top: 15px;
+    cursor: pointer;
+    background-color: #F2F2F2;
+    border: solid #F2F2F2 1px ;
+}
+
+.Show{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    background-color: black;
+    color: white    ;
+    font-size: 35px;
+}
+
+.Show:hover{
+    color: #666;
+}
+
+.PanelCovered{
+    transition: all 700ms ease;
+	transform: translateX(-100%);
+    position: absolute;
+    left: 0;
+    background-color: #F2F2F2;
+    width: 255px;
+    height: 1000px;
+    opacity: 0;
+	visibility: hidden;
+}
+
+.PanelCovered .LogoNegro{
+    position: inherit;
+    left: 20px;
+    top: 20px;
+}
+
+.PanelCovered .Close{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: inherit;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    background-color: #F2F2F2;
+    border: solid #F2F2F2 1px ;
+}
+
+.PanelCovered hr{
+    width: 80%;
+    size: 3px;
+    color: black;
+    position: relative;
+    top: 45px;
+    left: 0px;
+}
+
+
+.AsideOptions .Extra{
+    right: 0px;
+    width: 275px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 115px 20px 130px;
+    padding: 0px;
+}
+
+.AsideOptions .Extra div{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 50px;
+    font-size: 11px;
+    font-weight: lighter;
+    color: black;
+    padding: 10px;
+}
+
+.AsideOptions .Extra div:hover{
+    color: black;
+}
+
+.AsideOptions{
+    width: 275px;
+    position: relative;
+    top: 55px;
+    display: flex;
+    flex-direction:column;
+    align-items:left;
+
+}
+
+.AsideOptions div{
+    padding: 14px 20px;
+    cursor: pointer;
+    font-family: PlutoBold;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.AsideOptions div:hover{
+    color: #666;
+}

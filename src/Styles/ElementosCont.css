@@ -1,0 +1,76 @@
+.EC{
+    display: flex;
+    flex-direction:column;
+    align-items:left;
+    width: 320px;
+    height: 320px;
+}
+
+.EC span{
+    position: relative;
+    top: 3px;
+    font-family: Tisa;
+    font-size: 13px;
+    color: black;
+}
+
+.EC h3{
+    position: relative;
+    top: -11px;
+    font-family: PlutoBold;
+    font-weight: lighter;
+    line-height: 1.1;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.EC h3:hover{
+    color: #F16A5A;
+}
+
+.Imagen{
+    width: 330px;
+    height: auto;
+    cursor: pointer;
+}
+
+.Imagen:hover{
+    filter: opacity(0.6) drop-shadow(0 0 0 red); 
+    transition: 0.3s linear;
+}
+
+.Tags{
+    position: relative;
+    top: 2px;
+    left: -6px;
+    width: 230px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.Tags .Inside{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    border: 1px white solid;
+    cursor: pointer;
+    padding: 4px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.Tags .InsideHidden{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    border: 1px white solid;
+    cursor: pointer;
+    padding: 4px;
+    text-align: left;
+    margin: 0 auto;
+    visibility: hidden;
+}
+
+.Tags .Inside:hover{
+    color: #F16A5A;
+}

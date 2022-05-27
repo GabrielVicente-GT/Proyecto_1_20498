@@ -1,0 +1,29 @@
+.CA2{
+    position: relative;
+    top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 50px;
+    padding: 20px;
+}
+
+.BotonAparte{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.BotonExtra{
+    position: relative;
+    top: 70px;
+    background-color: black;
+    padding: 8px 55px;
+    color: white;
+    font-family: PlutoBold;
+    font-size:16px;
+    cursor: pointer;
+}

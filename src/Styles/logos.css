@@ -1,0 +1,8 @@
+.Circunferencia{
+    fill: white;
+    cursor: pointer;
+}
+
+.Circunferencia:hover{
+    fill: #666666;
+}

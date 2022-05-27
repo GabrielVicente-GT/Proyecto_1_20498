@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+.ProyectOne{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.Header{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    top: 0;
+    left: 0px;
+    background-color: black;
+    z-index: 999;
+
+}
+
+.Header .Logo{
+    cursor: pointer;
+}
+
+.Cuerpo{
+    width: 100%;
+    height: 1000px;
+    background-color: blue;
+}
+
+@font-face {
+    font-family: "PlutoBold";
+    src: url("32F03F_0_0.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Tisa";
+    src: url("83db2391-e8aa-4516-8ba2-48ede1e41596.woff2") format("woff2");
+}
+
+

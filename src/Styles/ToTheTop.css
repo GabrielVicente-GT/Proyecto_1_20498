@@ -1,0 +1,52 @@
+.Top button{
+    width: 65px;
+    height: 65px;
+    background-color: #201C1C;
+    bottom: 23px;
+    right: 23px;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.Top button img{
+    width: auto;
+    height:15px;
+    transform: rotateX(180deg);
+}
+
+.GoTop{
+    
+    transition: 0.3s linear;
+	visibility: visible;
+    position: fixed;
+    opacity: 0.7;
+}
+
+.GoTopHidden{
+
+    opacity: 0;
+    transition: 0.3s linear;
+	visibility: hidden;
+    position: fixed;
+    
+}
+
+.GoTop img{
+    transition: 0.3s linear;
+	visibility: visible;
+}
+
+.GoTopHidden img{
+    
+    transition: 0.3s linear;
+    opacity: 0;
+	visibility: hidden;
+
+}
+
+.Extra2{
+    width: auto;
+    height:15px;
+    transform: rotateX(180deg);
+}
